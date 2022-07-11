@@ -1,5 +1,5 @@
-let name = "Hello";
-let age = 25;
-let isApproved = true;
-let firstName = undefined;
+let name = "Hello"; // print string
+let age = 25; // print intger
+let isApproved = true; // Print Boolean
+let firstName = undefined; // 
 let selctedColor = null;

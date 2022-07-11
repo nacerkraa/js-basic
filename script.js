@@ -13,3 +13,5 @@ function createCircle(redeus){
 
 const circle = createCircle(2);
 circle.drow();
+
+// Constrector Function

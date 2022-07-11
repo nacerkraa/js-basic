@@ -3,4 +3,5 @@ let Person = {
     age : 25
 };
 
-console.log(Person);
+console.log(Person.name);
+console.log(Person["age"]);

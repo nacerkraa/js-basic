@@ -1,5 +1,6 @@
-let colors = ["red", "green"];
+function info(name, age = 13){
+    console.log('your name is: ' + name + ', and your age is: ' + age);
+}
 
-colors[2] = 5;
-
-console.log(colors)
+info('nacer', 25);
+info('meriem');

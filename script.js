@@ -14,12 +14,12 @@ function createCircle(redeus){
 const circle = createCircle(2);
 circle.drow();
 
-// Constrector Function
+// Constructor Function
 
 function Circle(redeus){
     this.redeus = redeus;
     this.drow = function(){
-        console.log("drow");
+        console.log("Drow a circle with: redus of: "+ redeus * redeus );
     }
 }
 

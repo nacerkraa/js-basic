@@ -1,7 +1,5 @@
-let Person = {
-    name : "nacer",
-    age : 25
-};
+let colors = ["red", "green"];
 
-console.log(Person.name);
-console.log(Person["age"]);
+colors[2] = 5;
+
+console.log(colors)

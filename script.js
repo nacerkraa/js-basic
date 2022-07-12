@@ -1,4 +1,4 @@
-// Difine 
+// Difine a class and a constructor
 
 class Person{
     constructor(name){

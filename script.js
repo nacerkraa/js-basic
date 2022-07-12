@@ -1,11 +1,9 @@
-// Start Modern JavaScript
 
-function PrintI(){
-    for(let i = 0; i< 5; i++){
-        console.log(i);
+const person = {
+    name:'Djalil',
+    walk(){
+        console.log(this);
     }
-
-    console.log(i);
 }
 
-PrintI();
+person.walk();

@@ -11,7 +11,7 @@ const srtr = adress.street;
 const city = adress.city;
 const contry = adress.country
 ------------------------------
-The second method
+The second method Object Destructing
 const {street:str,city} = adress;
 */
 

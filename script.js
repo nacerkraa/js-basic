@@ -1,12 +1,6 @@
-// normal function Hehehehe
-const seq = function sequre(number){
-    return number * number;
-}
 
-console.log(seq(5));
+const colors = ["green", "red", "black"];
 
-// Arow Function
+const allColors = colors.map(color => `<i>${color}</i>`);
 
-const seqr = number => number * number
-
-console.log(seqr(8));
+console.log(allColors);

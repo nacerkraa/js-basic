@@ -6,8 +6,14 @@ const adress = {
 
 };
 
+/* The first method
 const srtr = adress.street;
 const city = adress.city;
 const contry = adress.country
+------------------------------
+The second method
+const {street:str,city} = adress;
+*/
 
-console.log(srtr,city,contry);
+const {street:str,city} = adress;
+console.log(str,city);

@@ -1,1 +1,5 @@
-let el = document.getElementById("id");
+const backback = {
+    name : "nancer",
+    age:25,
+    des :  "Hello friends"
+}

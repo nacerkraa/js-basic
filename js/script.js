@@ -1,5 +1,5 @@
-const backback = {
-    name : "nancer",
-    age:25,
-    des :  "Hello friends"
+import backback from "./backback";
+
+const markep = (backback) =>{
+    return <div>${backback.name}</div>
 }

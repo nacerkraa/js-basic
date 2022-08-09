@@ -1,16 +1,9 @@
-const car = {
-    name : "Audi",
-    date: 2015,
-    moter:{
-        type:"Dezel",
-        capacity: "258H",
-        serial: 125455
-    },
-    nmbrOfKiloMereris: 1800,
-    asiranse: true,
-    sound : (sound = "tout tout!") => {
-        return sound
-    }
+import backback from "./backback";
+
+const show = ()=>{
+    let classmate = new backback("Mike Will",15);
+    return <div>{classmate.displayInfo()}</div>
+    
 }
 
-console.log(car.sound())
+show();

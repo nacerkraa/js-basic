@@ -1,9 +1,5 @@
-import backback from "./backback";
+import Book from "./Book";
 
-const show = ()=>{
-    let classmate = new backback("Mike Will",15);
-    return <div>{classmate.displayInfo()}</div>
-    
-}
-
-show();
+const bk1 = new Book("The land of zicola","atiab", 255, 28,true);
+let nb = bk1.showPageNumbers();
+console.log(nb);

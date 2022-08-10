@@ -8,7 +8,7 @@ class Book {
     }
 
     showPageNumbers() {
-        return this.pages;    
+        return this.pages;
     }
 }
 

@@ -1,4 +1,4 @@
-class Book {
+class Book{
     constructor(title, auther, pages, price, status){
         this.title = title;
         this.auther = auther;

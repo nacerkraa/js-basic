@@ -1,14 +1,15 @@
 class Book{
-    constructor(title, auther, pages, price, status){
+    constructor(title, age, auther, pages, price, status){
         this.title = title;
+        this.age = age;
         this.auther = auther;
         this.pages = pages;
         this.price = price;
         this.status = status;
     }
 
-    showPageNumbers() {
-        return this.pages;
+    printAge() {
+        return 2022 - this.age;
     }
 }
 

@@ -14,6 +14,7 @@ class Book{
 }
 
 
+
 const book = new Book(
     'Brand Website',
     1997,
@@ -36,3 +37,7 @@ const content = `
 `;
 
 document.body.innerHTML = content;
+
+console.log("the object name",book);
+console.log("the object name",book.status);
+console.log("the object name",book.title);

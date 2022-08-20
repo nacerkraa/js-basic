@@ -1,5 +1,5 @@
 class Book{
-    constructor(title, auther, pages, price, status){
+    constructor(title, age, auther, pages, price, status){
         this.title = title;
         this.age = age;
         this.auther = auther;
@@ -15,7 +15,7 @@ class Book{
 
 
 const book = new Book(
-    'Brad website',
+    'Brand Website',
     1997,
     'Hasan',
     505,
@@ -28,9 +28,11 @@ const content = `
     <div>
     <h2>${book.title}</h2>
     <ul>
-        <li>${book.printAge(1997)}</li>
+        <li>${book.pages}</li>
         <li>${book.auther}</li>
         <li>${book.price}</li>
     </ul>
     </div>
 `;
+
+document.body.innerHTML = content;

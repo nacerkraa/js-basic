@@ -29,9 +29,9 @@ const content = `
     <div>
     <h2>${book.title}</h2>
     <ul>
-        <li>${book.pages}</li>
-        <li>${book.auther}</li>
-        <li>${book.price}</li>
+        <li class="item">${book.pages}</li>
+        <li class="item">${book.auther}</li>
+        <li class="item">${book.price}</li>
     </ul>
     </div>
 `;
